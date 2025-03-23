@@ -1,0 +1,28 @@
+.wrapper{
+    padding: 30px;
+}
+
+.wrapper h1{
+    font-weight: bold;
+}
+
+.form-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 400px;
+}
+
+.form-wrapper input, textarea{
+    border: 1px solid black;
+}
+
+button {
+    background-color: black; 
+    color: white;          
+    padding: 2px;         
+    font-size: 16px;            
+    cursor: pointer;            
+    border-radius: 5px;   
+    text-align: center;    
+}

@@ -1,0 +1,64 @@
+.pending{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pending h3 {
+    display: none;
+}
+
+.blog-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 30px;
+}
+
+.blog-cards div{
+    padding: 10px;
+    border: 1px solid brown;
+}
+
+.blog-header{
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.icons{
+    display: flex;
+    border: 0px !important;
+    gap: 5px;
+}
+
+.blog-title{
+    font-weight: bold;
+}
+.blog-description{
+    font-style: italic;
+}
+
+.error-message{
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.trash:hover{
+    color: red;
+}
+
+.edit:hover{
+    color: green;
+}
+
+@keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
